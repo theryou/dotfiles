@@ -1,0 +1,25 @@
+{
+	"name": "All snippets",
+	"contributes": {
+		"snippets": [
+			{
+				"language": [
+					"cpp"
+				],
+				"path": "./base.json"
+			},
+			{
+				"language": [
+					"cpp"
+				],
+				"path": "./freopen.json"
+			},
+			{
+				"language": [
+					"cpp"
+				],
+				"path": "./multitest.json"
+			}
+		]
+	}
+}

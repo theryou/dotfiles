@@ -1,0 +1,11 @@
+{
+	"Cpp freopen": {
+		"prefix": "file",
+		"body": [
+			"#define taskname \"${1}\"",
+			"freopen (taskname\".inp\", \"r\", stdin);",
+			"freopen (taskname\".out\", \"w\", stdout);"
+		],
+		"description": "Cpp freopen"
+	}
+}

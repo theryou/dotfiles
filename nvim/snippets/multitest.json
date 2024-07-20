@@ -1,0 +1,12 @@
+{
+	"Cpp multitest": {
+		"prefix": "tests",
+		"body": [
+			"int tt;  cin >> tt;",
+			"while (tt--) {",
+			"  ${1}",
+			"}"
+		],
+		"description": "Cpp multitest"
+	}
+}
