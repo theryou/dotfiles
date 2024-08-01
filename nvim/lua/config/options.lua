@@ -1,7 +1,6 @@
 vim.g.mapleader = " "
 
 vim.o.autoread = true
-vim.o.guifont = "ComicShannsMono Nerd Font:h13"
 
 vim.opt.clipboard = vim.env.SSH_TTY and "" or "unnamedplus" -- Sync with system clipboard
 
@@ -25,9 +24,14 @@ vim.opt.tabstop = 2 -- Number of spaces tabs count for
 vim.opt.list = true
 vim.opt.listchars = { tab = '| ' }
 
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 vim.opt.termguicolors = true -- True color support
 
 vim.api.nvim_create_autocmd({ "BufEnter", "CursorHold", "CursorHoldI", "FocusGained" }, {
   command = "if mode() != 'c' | checktime | endif",
   pattern = { "*" },
 })
+
+require("config.neovide")

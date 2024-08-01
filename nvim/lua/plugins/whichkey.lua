@@ -1,9 +1,9 @@
 return {
   "folke/which-key.nvim",
   event = "VeryLazy",
-  opts = {
+	opts = {
 		icons = {
-			mappings = false,
-		},
-  },
+			mappings = false
+		}
+	},
 }
